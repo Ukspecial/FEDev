@@ -1,0 +1,74 @@
+body {
+    background-color: darkslategray;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Legit-product {
+    width: 200px !important;
+    border-radius: 0.5em;
+    box-shadow: 0px 2px 5px 0px whitesmoke;
+
+}
+
+
+header {
+    background-color: rgb(255, 255, 255);
+    margin-left:auto;
+    margin-right: auto;
+    width: 98%;
+    overflow: hidden;
+ }
+ header h1 {
+     color: purple;
+     text-align: center;
+     font-size: 3em;
+ }
+ .nav-list {
+     display: inline-block;
+     background-color: chocolate;
+     padding: .5%;
+     border-radius: 5px;
+     
+ }
+ ul {
+     text-align:center;
+     list-style-type: none;
+ }
+ a {
+    text-decoration: none;
+    font-weight: bold;
+        
+ }
+ /*
+ a:link {
+     color: brown;
+ }
+ 
+ a:visited {
+     color: rgb(1, 27, 6);
+}*/
+ a:hover {
+    color: rgb(240, 87, 27);
+}
+a:active {
+    color: purple;
+}
+section {
+    background-color: darkgray;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+
+}
+div {
+    display: flex;
+}
+.section-fig {
+    border-radius: 10px;
+    width: 90%;
+    
+}
