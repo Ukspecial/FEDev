@@ -1,0 +1,7 @@
+my first file on git
+this file shall store several giit commands
+such as:
+1. git init
+2. git config --global user.name 'username'
+3. git config --global user.email email
+4. git status etc
