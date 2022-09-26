@@ -1,2 +1,2 @@
-This Repository focuses on the development of Front End of a website using scriting Language HTML, styling Language CSS and interractivity using JavaScript including their frameworks and Libraries
+This Repository focuses on the development of website Front End using scripting Language - HTML, styling Language - CSS and adds interractivity using JavaScript including their frameworks and Libraries
 
