@@ -1,0 +1,65 @@
+body {
+    background-color: teal;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.form-container {
+    margin: auto;
+    width: 60%;
+    padding: 16px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 10px 20px 10px 0px rgb(46, 45, 45);
+    
+}
+
+input[type='text'],
+input[type='date'],
+input[type='tel']{
+    width:100%;
+    padding: 15px;
+    margin: 5px 0px 25px 0px;
+    display: inline-block;
+    border-color: rgb(228, 222, 222);
+    background: rgb(247, 241, 241);
+}
+
+select[name='MS'],
+select[name='sex'],
+select[name='programs'],
+select[name='prgm-type']{
+    width:100%;
+    padding: 15px;
+    margin: 5px 0px 25px 0px;
+    display: inline-block;
+    border-color: rgb(228, 222, 222);
+    background: rgb(247, 241, 241);
+}
+
+button{
+    width: 100%;
+    padding: 20px;
+    background-color: teal;
+    color: white;
+    border: none;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+button:hover{
+    background-color:rgb(7, 66, 66);
+}
+
+input:hover[type='submit']:hover{
+    background-color: rgb(4, 48, 48);
+}
+
+label{
+    font-size: 1em;
+    font-weight: bold;
+}

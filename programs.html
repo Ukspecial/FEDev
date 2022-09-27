@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/program.css">
+</head>
+<body>
+    <header>
+        <h1>LEGIT COMPUTERS</h1>
+        <nav>
+            <ul>
+                <li class="nav-list"><a href="#">Home</a></li>
+                <li class="nav-list"><a href="#">History</a></li>
+                <li class="nav-list"><a href="#">Practice</a></li>
+                <li class="nav-list"><a href="#">Output</a></li>
+                <li class="nav-list"><a href="NewPage/Product.html">product</a></li>
+            </ul>
+        </nav>
+    </header>
+    <form action="https://www.github.com/Ukspecial/FEDev.git" class="form-container">
+        <h2>PROGRAM REGISTRATION</h2>
+        <fieldset>
+            <legend>Carefully fill out the form</legend>
+            <h3>Personal Data</h3>
+            <label for="fn">First Name</label>
+            <input type="text" placeholder="First Name" name="fn" id="fn" required>
+
+            <label for="ln">Last Name</label>
+            <input type="text" placeholder="Last Name" name="ln" id="ln" required>
+
+            <label for="on">Other Name (If Any)</label>
+            <input type="text" placeholder="Other Name" name="on" id="on" >
+
+            <label for="sex">Sex</label>
+            <select name="sex" id="male">
+                <option value="select" selected>Select</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+            <label for="DOB">Date of Birth</label>
+            <input type="date" name="DOB" value="DOB" required>
+
+            <label for="MS">Marital Status</label>
+            <select name="MS" id="MS">
+                <option value="select" selected>Select</option>
+                <option value="Married">Married</option>
+                <option value="Single">Single</option>
+                <option value="widow">Widow</option>
+                <option value="widower">Widower</option>
+            </select>
+            <label for="phone">Mobile No.</label>
+            <input type="tel" placeholder="phone number" id="phone" pattern="{4}-{3}-{4}" required>
+            <hr>
+            <h3>Program Data</h3>
+            <label for="programs">Program of Interest</label>
+            <select name="programs" id="pgm" required>
+                <option value="select" selected>Select</option>
+                <option value="FEDev">Front End Development</option>
+                <option value="BEDev">Back End Development</option>
+                <option value="EA">Excel Analytics</option>
+                <option value="c-lang">C Langauage</option>
+                <option value="J-lang">Java Langauage</option>
+                <option value="c#">C# Langauage</option>
+                <option value="c++ lang">C++ Langauage</option>
+            </select>
+
+            <label for="enrol-type">Enrolment Type</label>
+            <select name="prgm-type" id="pg-types">
+                <option value="select" selected>Select</option>
+                <option value="FT">Full Time</option>
+                <option value="PT">Psrt Time</option>
+                <option value="WkD">Weekend</option>
+            </select>
+
+            <button class="button">Submit</button>
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>
